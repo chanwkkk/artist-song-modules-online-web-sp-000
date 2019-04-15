@@ -14,10 +14,6 @@ class Song
   #  @@songs << self
   #end
 
-  def initialize
-    super
-    @songs = []
-  end
 
   #def self.find_by_name(name)
   #  @@songs.detect{|a| a.name == name}
